@@ -22,4 +22,4 @@ const addToStoreWishList = (id)=>{
         localStorage.setItem('wish-list',storedWishListStr)
     }
 }
-export {addToStoreWishList};
+export {addToStoreWishList,getWishList};
